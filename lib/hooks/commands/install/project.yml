@@ -1,0 +1,4 @@
+- description: Installing project's packages
+  bin: cd ${project.path} && npm install --silent 
+- description: Installing jest
+  bin: cd ${project.path} && npm install jest --silent 

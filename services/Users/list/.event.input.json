@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "host": "localhost:4001",
+    "connection": "keep-alive",
+    "accept": "application/json",
+    "origin": "http://localhost:4002",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36",
+    "referer": "http://localhost:4002/swagger-ui/",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8"
+  },
+  "method": "GET",
+  "path": "/users",
+  "params": {},
+  "query": {},
+  "clientIpAddress": "::1",
+  "url": "/users",
+  "body": ""
+}

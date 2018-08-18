@@ -1,0 +1,28 @@
+info:
+  title: API Documentation
+  description: Detailed documentation for available API endpoints
+definitions:
+  ErrorResponseV1:
+    type: object
+    properties:
+      errors:
+        type: object
+      message:
+        type: string
+        default: error message
+      name:
+        type: string
+        default: message name    
+  User:
+    type: object
+    required:
+      - email
+      - name
+      - password
+    properties:
+      name:
+        type: string
+      email:
+        type: string
+      password:
+        type: string

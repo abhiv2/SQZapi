@@ -1,0 +1,380 @@
+{
+  "files": {
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/.vars.json": {
+      "md5": "df8f577be107d6bc5cd38ce90dbf51f9",
+      "mtimeMs": 1534591177708.0496
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/handler.js": {
+      "md5": "0a82afe0a8ac674b911c64e5f3ecc284",
+      "mtimeMs": 1534582032035.702
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/lib/db.js": {
+      "md5": "c7ec9ce3bfcebfb4daa7364defda803d",
+      "mtimeMs": 1534580698579.241
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js": {
+      "md5": "48abba97e5966f33d72efd212724500f",
+      "mtimeMs": 1534590193031.3884
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js": {
+      "md5": "7b68ba1d5b8d65a0d8ce7967a9c01b05",
+      "mtimeMs": 1534590193031.3884
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/.vars.json": {
+      "md5": "75eb9539d332a525be3d2e2d431698bf",
+      "mtimeMs": 1534591177708.0496
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/handler.js": {
+      "md5": "ba46a8affffe9024113c63ea3447c414",
+      "mtimeMs": 1534582556554.636
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/lib/db.js": {
+      "md5": "1785447b1b95d939ce6355a2dc89f875",
+      "mtimeMs": 1534580698579.241
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/.vars.json": {
+      "md5": "4cd2e7ecbac9354e557536ba011a6fcd",
+      "mtimeMs": 1534591177708.0496
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/handler.js": {
+      "md5": "ff9ca20c9f4aaf3dccb7d8d09327d495",
+      "mtimeMs": 1534582782472.049
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/lib/db.js": {
+      "md5": "ffc74f2c47666060d7e312596a2b42a6",
+      "mtimeMs": 1534580698579.241
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/.vars.json": {
+      "md5": "c12bec67c131a607ec85b4fd484f9775",
+      "mtimeMs": 1534591177708.0496
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/handler.js": {
+      "md5": "a635ecc0fd40e53fd593531bfe2f5e37",
+      "mtimeMs": 1534582004803.571
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/lib/db.js": {
+      "md5": "9c86cc214bef7cc1d2d7e8622b04e970",
+      "mtimeMs": 1534580698579.241
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/.vars.json": {
+      "md5": "dd442dae6f7ea011449ab5d34694e65f",
+      "mtimeMs": 1534591177708.0496
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/handler.js": {
+      "md5": "9b773f162da2ccbae6c034f60867dffb",
+      "mtimeMs": 1534582013579.613
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/lib/db.js": {
+      "md5": "c41b297397224819fa51c59a0af5c91d",
+      "mtimeMs": 1534580698579.241
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/.vars.json": {
+      "md5": "fa77a44125af1c182039392ee3766bef",
+      "mtimeMs": 1534597513617.8875
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/handler.js": {
+      "md5": "ce849bf87de5769d106c4b3588babc03",
+      "mtimeMs": 1534588080798.916
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/lib/db.js": {
+      "md5": "cd8566bfa62fe20e0758fd6d27b24980",
+      "mtimeMs": 1534597381997.3926
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/User.js": {
+      "md5": "53343842baa560d044d430561d2e8d6a",
+      "mtimeMs": 1534591500473.2278
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/.vars.json": {
+      "md5": "b7b28f2886c43099f632b03420e2e885",
+      "mtimeMs": 1534597513617.8875
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/handler.js": {
+      "md5": "e52c63001633a11e4a7f0bc880c95e82",
+      "mtimeMs": 1534594744856.0713
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/lib/db.js": {
+      "md5": "26d5b20b34d7ed1cbb82eecd3715a550",
+      "mtimeMs": 1534597513613.8872
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/.vars.json": {
+      "md5": "973f8e71bd00aed4e20599767fb497bb",
+      "mtimeMs": 1534597513617.8875
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/handler.js": {
+      "md5": "a97303efb720fac87cf702367c8bbe34",
+      "mtimeMs": 1534596551416.5283
+    },
+    "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/lib/db.js": {
+      "md5": "3a263785e86f2d61b12c39c71217f31c",
+      "mtimeMs": 1534596539753.8953
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/.vars.json": {
+      "md5": "22e7fd47de6a4546f05871dc6425cda1",
+      "mtimeMs": 1534598613257.3223
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/handler.js": {
+      "md5": "ce849bf87de5769d106c4b3588babc03",
+      "mtimeMs": 1534588080798.916
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/lib/db.js": {
+      "md5": "cd8566bfa62fe20e0758fd6d27b24980",
+      "mtimeMs": 1534597381997.392
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/lib/db/index.js": {
+      "md5": "48abba97e5966f33d72efd212724500f",
+      "mtimeMs": 1534590193031.388
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/lib/db/models/User.js": {
+      "md5": "53343842baa560d044d430561d2e8d6a",
+      "mtimeMs": 1534591500473.227
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/.vars.json": {
+      "md5": "c905fa3f0a0c48270691ea7da028c3fa",
+      "mtimeMs": 1534598613257.3223
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/handler.js": {
+      "md5": "a97303efb720fac87cf702367c8bbe34",
+      "mtimeMs": 1534596551416.528
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/lib/db.js": {
+      "md5": "3a263785e86f2d61b12c39c71217f31c",
+      "mtimeMs": 1534596539753.895
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/.vars.json": {
+      "md5": "7033fd74ef076bca1dc114878ffe8a22",
+      "mtimeMs": 1534598613257.3223
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/handler.js": {
+      "md5": "e52c63001633a11e4a7f0bc880c95e82",
+      "mtimeMs": 1534594744856.071
+    },
+    "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/lib/db.js": {
+      "md5": "26d5b20b34d7ed1cbb82eecd3715a550",
+      "mtimeMs": 1534597513613.887
+    }
+  },
+  "functions": {
+    "addProduct": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/addProduct/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "fs"
+        }
+      ]
+    },
+    "getProducts": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/getProduct/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "fs"
+        }
+      ]
+    },
+    "ListProducts": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/listProducts/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "removeProducts": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/removeProduct/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "fs"
+        }
+      ]
+    },
+    "updateProducts": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/products/updateProduct/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/Product.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "fs"
+        }
+      ]
+    },
+    "list": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/list/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/User.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/lib/db/models/User.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "register": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/register/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/User.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "fs"
+        }
+      ]
+    },
+    "login": {
+      "deps": [
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/services/Users/login/src/lib/db.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/index.js",
+        "/home/i0026/Projects/SqZ/example-projects/api-rest-nodejs/lib/db/models/User.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/.vars.json",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/handler.js",
+        "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "jsonwebtoken",
+          "version": "^8.3.0"
+        },
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        },
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        }
+      ]
+    }
+  }
+}

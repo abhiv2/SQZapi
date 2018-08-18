@@ -1,0 +1,120 @@
+{
+  "name": "api-rest-nodejs",
+  "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi",
+  "identifier": "ApiRestNodejs",
+  "stage": "local",
+  "config": {},
+  "provider": "local",
+  "runtime": "nodejs",
+  "appBaseUrl": "http://localhost:4001",
+  "storageBaseUrl": "http://localhost:4001/.build",
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1/users",
+    "options": {
+      "useMongoClient": true
+    }
+  },
+  "response-http-headers": [
+    {
+      "Access-Control-Allow-Origin": "*"
+    },
+    {
+      "Access-Control-Allow-Headers": "Authorization, Content-Type"
+    }
+  ],
+  "function": {
+    "name": "list",
+    "event": {
+      "type": "http",
+      "path": "/users",
+      "methods": [
+        "GET"
+      ]
+    },
+    "packaging": [
+      "vars.json"
+    ],
+    "swagger": {
+      "paths": {
+        "/users": {
+          "get": {
+            "summary": "List all users",
+            "description": "List all users as an JSON array",
+            "tags": [
+              "User"
+            ],
+            "produces": [
+              "application/json"
+            ],
+            "responses": {
+              "200": {
+                "description": "successful operation",
+                "schema": {
+                  "$ref": "#/definitions/ListResponse"
+                }
+              },
+              "400": {
+                "description": "bad request",
+                "schema": {
+                  "$ref": "#/definitions/ErrorResponseV1"
+                }
+              },
+              "500": {
+                "description": "internal error"
+              }
+            }
+          }
+        }
+      },
+      "definitions": {
+        "ListResponse": {
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "string",
+              "default": "success"
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/UserInfo"
+              }
+            }
+          }
+        },
+        "UserInfo": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "default": ""
+            },
+            "email": {
+              "type": "string",
+              "default": ""
+            },
+            "id": {
+              "type": "string",
+              "default": ""
+            },
+            "__v": {
+              "type": "integer",
+              "default": 0
+            }
+          }
+        }
+      }
+    },
+    "handler": "handler",
+    "timeout": 6,
+    "memory": 128,
+    "identifier": "List",
+    "service": "Users",
+    "serviceIdentifier": "Users",
+    "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list",
+    "packagePath": "/home/i0026/Projects/SqZ/example-projects/SQZapi/.build/deploy/functions",
+    "packageFile": "List.zip",
+    "flagged": true,
+    "force": false
+  }
+}

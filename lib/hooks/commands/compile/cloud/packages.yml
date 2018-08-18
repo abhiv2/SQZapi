@@ -1,0 +1,2 @@
+- description: Adding dependencies
+  bin: cd ${output} && npm install --silent

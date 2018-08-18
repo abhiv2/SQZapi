@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "0": {
+      "Access-Control-Allow-Origin": "*"
+    },
+    "1": {
+      "Access-Control-Allow-Headers": "Authorization, Content-Type"
+    },
+    "content-type": "application/json; charset=utf-8"
+  },
+  "statusCode": 200,
+  "body": "{\"message\":\"success\",\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViNzgyMDg4NjMyMzc5NWE5ZjQ5NGI5NSIsImlhdCI6MTUzNDU5OTMxNiwiZXhwIjoxNTM0Njg1NzE2fQ.PIL_HQp6xtomtSYI70e_9BHa11BHwbSSg4yeYhp6pL0\",\"user\":{\"name\":\"nance\",\"email\":\"nance@gmail.com\"}}"
+}

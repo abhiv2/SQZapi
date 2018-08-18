@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "b47813ed-f509-44fb-a291-909d44233bf8",
+    "user-agent": "PostmanRuntime/7.1.5",
+    "accept": "*/*",
+    "host": "localhost:4001",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "61",
+    "connection": "keep-alive"
+  },
+  "method": "POST",
+  "path": "/login",
+  "params": {},
+  "query": {},
+  "clientIpAddress": "::1",
+  "url": "/login",
+  "body": "{\n\t\"email\" : \"thomus@gmail.com\",\n\t\"password\" : \"thomus@j12\"\n}"
+}

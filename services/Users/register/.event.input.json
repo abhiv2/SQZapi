@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "07f1f70c-8422-42ea-b4f5-664f1a930eb6",
+    "user-agent": "PostmanRuntime/7.1.5",
+    "accept": "*/*",
+    "host": "localhost:4001",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "81",
+    "connection": "keep-alive"
+  },
+  "method": "POST",
+  "path": "/register",
+  "params": {},
+  "query": {},
+  "clientIpAddress": "::1",
+  "url": "/register",
+  "body": "{\n\t\"name\" : \"thomus\",\n\t\"email\" : \"thomus@gmail.com\",\n\t\"password\" : \"thomus@j12\"\n}"
+}

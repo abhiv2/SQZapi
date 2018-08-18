@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "0": {
+      "Access-Control-Allow-Origin": "*"
+    },
+    "1": {
+      "Access-Control-Allow-Headers": "Authorization, Content-Type"
+    },
+    "content-type": "application/json; charset=utf-8"
+  },
+  "statusCode": 200,
+  "body": "{\"message\":\"success\",\"data\":{\"name\":\"nance\",\"email\":\"nance@gmail.com\",\"_id\":\"5b7820886323795a9f494b95\",\"__v\":0}}"
+}

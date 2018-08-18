@@ -1,0 +1,21 @@
+{
+  "checksums": [
+    {
+      "stage": "local",
+      "functions": [
+        {
+          "name": "list",
+          "checksum": "592992ee096225d1b94b4004676ba67e"
+        },
+        {
+          "name": "login",
+          "checksum": "ee9bb4d9103234361ad26b07021eca66"
+        },
+        {
+          "name": "register",
+          "checksum": "c8992c09f1d7bb71ef0d96ddcd6b51e9"
+        }
+      ]
+    }
+  ]
+}

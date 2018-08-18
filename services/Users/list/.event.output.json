@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "0": {
+      "Access-Control-Allow-Origin": "*"
+    },
+    "1": {
+      "Access-Control-Allow-Headers": "Authorization, Content-Type"
+    },
+    "content-type": "application/json; charset=utf-8"
+  },
+  "statusCode": 200,
+  "body": "{\"message\":\"success\",\"data\":[{\"_id\":\"5b7819194104294f2bf94f19\",\"name\":\"rick\",\"email\":\"rick@gmail.com\",\"__v\":0},{\"_id\":\"5b78199b6f60b34f8e27820d\",\"name\":\"thomus\",\"email\":\"thomus@gmail.com\",\"__v\":0}]}"
+}
