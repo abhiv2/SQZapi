@@ -2,7 +2,7 @@
   "headers": {
     "content-type": "application/json",
     "cache-control": "no-cache",
-    "postman-token": "07f1f70c-8422-42ea-b4f5-664f1a930eb6",
+    "postman-token": "36f3236b-7c4c-445d-8e0d-bc4309009b7d",
     "user-agent": "PostmanRuntime/7.1.5",
     "accept": "*/*",
     "host": "localhost:4001",
@@ -16,5 +16,5 @@
   "query": {},
   "clientIpAddress": "::1",
   "url": "/register",
-  "body": "{\n\t\"name\" : \"thomus\",\n\t\"email\" : \"thomus@gmail.com\",\n\t\"password\" : \"thomus@j12\"\n}"
+  "body": "{\n\t\"email\" : \"martin@gmail.com\",\n\t\"password\" : \"martin@j12\",\n\t\"name\" : \"martin\"\n}"
 }

@@ -32,6 +32,10 @@ GET on /users
 ```
 sqz install
 ```
+- compile the app
+```
+sqz compile
+```
 - start the app
 ```
 sqz server
@@ -53,6 +57,4 @@ Also Swagger docs in available for testing/development purpose
 - swagger home
 ![swagger](img/4.png)
 
-- swagger demo
-![swagger](img/5.png)
 

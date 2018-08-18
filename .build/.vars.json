@@ -1,0 +1,25 @@
+{
+  "name": "api-rest-nodejs",
+  "path": "/home/i0026/Projects/SQZapi",
+  "identifier": "ApiRestNodejs",
+  "stage": "local",
+  "config": {},
+  "provider": "local",
+  "runtime": "nodejs",
+  "appBaseUrl": "http://localhost:4001",
+  "storageBaseUrl": "http://localhost:4001/.build",
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1/users",
+    "options": {
+      "useMongoClient": true
+    }
+  },
+  "response-http-headers": [
+    {
+      "Access-Control-Allow-Origin": "*"
+    },
+    {
+      "Access-Control-Allow-Headers": "Authorization, Content-Type"
+    }
+  ]
+}

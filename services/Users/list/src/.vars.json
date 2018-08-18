@@ -1,6 +1,6 @@
 {
   "name": "api-rest-nodejs",
-  "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi",
+  "path": "/home/i0026/Projects/SQZapi",
   "identifier": "ApiRestNodejs",
   "stage": "local",
   "config": {},
@@ -111,8 +111,8 @@
     "identifier": "List",
     "service": "Users",
     "serviceIdentifier": "Users",
-    "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/list",
-    "packagePath": "/home/i0026/Projects/SqZ/example-projects/SQZapi/.build/deploy/functions",
+    "path": "/home/i0026/Projects/SQZapi/services/Users/list",
+    "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
     "packageFile": "List.zip",
     "flagged": true,
     "force": false

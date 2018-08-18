@@ -1,0 +1,111 @@
+{
+  "files": {
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/.vars.json": {
+      "md5": "7f6a1bae1605a496472f09adca31df18",
+      "mtimeMs": 1534601576461.7227
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/handler.js": {
+      "md5": "ce849bf87de5769d106c4b3588babc03",
+      "mtimeMs": 1534588080798.916
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/lib/db.js": {
+      "md5": "cd8566bfa62fe20e0758fd6d27b24980",
+      "mtimeMs": 1534597381997.392
+    },
+    "/home/i0026/Projects/SQZapi/lib/db/index.js": {
+      "md5": "48abba97e5966f33d72efd212724500f",
+      "mtimeMs": 1534590193031.388
+    },
+    "/home/i0026/Projects/SQZapi/lib/db/models/User.js": {
+      "md5": "53343842baa560d044d430561d2e8d6a",
+      "mtimeMs": 1534591500473.227
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/.vars.json": {
+      "md5": "da8ed48342bd4c804e8508ace9ad75f1",
+      "mtimeMs": 1534601576461.7227
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/handler.js": {
+      "md5": "a97303efb720fac87cf702367c8bbe34",
+      "mtimeMs": 1534596551416.528
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/lib/db.js": {
+      "md5": "3a263785e86f2d61b12c39c71217f31c",
+      "mtimeMs": 1534596539753.895
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/.vars.json": {
+      "md5": "447a3d12d411240e03264b7569eaa3ab",
+      "mtimeMs": 1534601576461.7227
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/handler.js": {
+      "md5": "e52c63001633a11e4a7f0bc880c95e82",
+      "mtimeMs": 1534594744856.071
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/lib/db.js": {
+      "md5": "26d5b20b34d7ed1cbb82eecd3715a550",
+      "mtimeMs": 1534597513613.887
+    }
+  },
+  "functions": {
+    "list": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/lib/db.js",
+        "/home/i0026/Projects/SQZapi/lib/db/index.js",
+        "/home/i0026/Projects/SQZapi/lib/db/models/User.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "login": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "jsonwebtoken",
+          "version": "^8.3.0"
+        },
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "register": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    }
+  }
+}

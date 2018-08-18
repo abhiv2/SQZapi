@@ -1,6 +1,6 @@
 {
   "name": "api-rest-nodejs",
-  "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi",
+  "path": "/home/i0026/Projects/SQZapi",
   "identifier": "ApiRestNodejs",
   "stage": "local",
   "config": {},
@@ -85,9 +85,26 @@
               "type": "string",
               "default": "success"
             },
-            "data": {
+            "user": {
               "type": "object",
               "$ref": "#/definitions/UserProfile"
+            },
+            "access_token": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        },
+        "UserProfile": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "default": ""
+            },
+            "email": {
+              "type": "string",
+              "default": ""
             }
           }
         }
@@ -99,8 +116,8 @@
     "identifier": "Login",
     "service": "Users",
     "serviceIdentifier": "Users",
-    "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/login",
-    "packagePath": "/home/i0026/Projects/SqZ/example-projects/SQZapi/.build/deploy/functions",
+    "path": "/home/i0026/Projects/SQZapi/services/Users/login",
+    "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
     "packageFile": "Login.zip",
     "flagged": true,
     "force": false

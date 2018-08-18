@@ -1,6 +1,6 @@
 {
   "name": "api-rest-nodejs",
-  "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi",
+  "path": "/home/i0026/Projects/SQZapi",
   "identifier": "ApiRestNodejs",
   "stage": "local",
   "config": {},
@@ -120,8 +120,8 @@
     "identifier": "Register",
     "service": "Users",
     "serviceIdentifier": "Users",
-    "path": "/home/i0026/Projects/SqZ/example-projects/SQZapi/services/Users/register",
-    "packagePath": "/home/i0026/Projects/SqZ/example-projects/SQZapi/.build/deploy/functions",
+    "path": "/home/i0026/Projects/SQZapi/services/Users/register",
+    "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
     "packageFile": "Register.zip",
     "flagged": true,
     "force": false
