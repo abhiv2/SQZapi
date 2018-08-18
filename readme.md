@@ -5,7 +5,7 @@ This Api contains module for secure login and registration of user
 This Api can serve as a boilerplate for getting started  with quick api development on squeezer platform
 
 ### Modules and functionalities - 
-- Squeezer.io serverless architecutral framework
+- Squeezer serverless architecutral framework
 - JsonWebToken for Auth
 - Bcrypt for securing passwords
 - Swagger Api documentation
