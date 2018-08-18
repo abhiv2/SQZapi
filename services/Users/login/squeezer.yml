@@ -1,8 +1,8 @@
-name: login
+name: loginV1
 
 event:
   type: http
-  path: /login
+  path: /v1/login
   methods:
     - POST
  
