@@ -1,7 +1,9 @@
 ## SQZapi
 
 This is a demo node API created using SQUEZZER serverless framework 
+
 This Api contains module for secure login and registration of user
+
 This Api can serve as a boilerplate for getting started  with quick api development on squeezer platform
 
 ### Modules and functionalities - 
