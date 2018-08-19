@@ -40,7 +40,7 @@ sqz compile
 ```
 - start the app
 ```
-sqz server
+sqz serve
 ```
 
 Go to Url for api and test,
