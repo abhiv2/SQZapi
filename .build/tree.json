@@ -1,0 +1,151 @@
+{
+  "files": {
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/.vars.json": {
+      "md5": "fb43ee8c18756d9fff5431a7ee62d31b",
+      "mtimeMs": 1534701813190.904
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/handler.js": {
+      "md5": "ce849bf87de5769d106c4b3588babc03",
+      "mtimeMs": 1534701581642.5647
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/list/src/lib/db.js": {
+      "md5": "cd8566bfa62fe20e0758fd6d27b24980",
+      "mtimeMs": 1534701581642.5647
+    },
+    "/home/i0026/Projects/SQZapi/lib/db/index.js": {
+      "md5": "48abba97e5966f33d72efd212724500f",
+      "mtimeMs": 1534701581638.5652
+    },
+    "/home/i0026/Projects/SQZapi/lib/db/models/User.js": {
+      "md5": "53343842baa560d044d430561d2e8d6a",
+      "mtimeMs": 1534701581638.5652
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/.vars.json": {
+      "md5": "50313c33d0789791cc77d1f61f19ff35",
+      "mtimeMs": 1534701813190.904
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/handler.js": {
+      "md5": "a97303efb720fac87cf702367c8bbe34",
+      "mtimeMs": 1534701581642.5647
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/login/src/lib/db.js": {
+      "md5": "3a263785e86f2d61b12c39c71217f31c",
+      "mtimeMs": 1534701581642.5647
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/.vars.json": {
+      "md5": "02c11496d6ce0c256ec716d265185a9a",
+      "mtimeMs": 1534701813190.904
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/handler.js": {
+      "md5": "e52c63001633a11e4a7f0bc880c95e82",
+      "mtimeMs": 1534701581642.5647
+    },
+    "/home/i0026/Projects/SQZapi/services/Users/register/src/lib/db.js": {
+      "md5": "26d5b20b34d7ed1cbb82eecd3715a550",
+      "mtimeMs": 1534701581642.5647
+    }
+  },
+  "functions": {
+    "list": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/lib/db.js",
+        "/home/i0026/Projects/SQZapi/lib/db/index.js",
+        "/home/i0026/Projects/SQZapi/lib/db/models/User.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "loginV1": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/login/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "jsonwebtoken",
+          "version": "^8.3.0"
+        },
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "register": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "listV1": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/list/src/lib/db.js",
+        "/home/i0026/Projects/SQZapi/lib/db/index.js",
+        "/home/i0026/Projects/SQZapi/lib/db/models/User.js"
+      ],
+      "packages": [
+        {
+          "pkg": "mongoose",
+          "version": "^4.12.4"
+        },
+        {
+          "pkg": "bluebird",
+          "version": "^3.5.1"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    },
+    "registerV1": {
+      "deps": [
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/.vars.json",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/handler.js",
+        "/home/i0026/Projects/SQZapi/services/Users/register/src/lib/db.js"
+      ],
+      "packages": [
+        {
+          "pkg": "bcryptjs",
+          "version": "^2.4.3"
+        },
+        {
+          "pkg": "squeezer-event-node",
+          "version": "~0.0.1"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "headers": {
     "cache-control": "no-cache",
-    "postman-token": "3977b7df-70a3-4971-a6de-6a293cff8f96",
+    "postman-token": "d1e3c526-71a7-4fb2-8ce4-0ae441f30484",
     "user-agent": "PostmanRuntime/7.1.5",
     "accept": "*/*",
     "host": "localhost:4001",
@@ -9,10 +9,10 @@
     "connection": "keep-alive"
   },
   "method": "GET",
-  "path": "/users",
+  "path": "/v1/users",
   "params": {},
   "query": {},
   "clientIpAddress": "::1",
-  "url": "/users",
+  "url": "/v1/users",
   "body": ""
 }

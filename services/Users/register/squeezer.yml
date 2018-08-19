@@ -1,8 +1,8 @@
-name: register
+name: registerV1
 
 event:
   type: http
-  path: /register
+  path: /v1/register
   methods:
     - POST
  
@@ -11,7 +11,7 @@ packaging:
 
 swagger:
   paths:
-    /register:
+    /v1/register:
       post:
         summary: Signup a user
         description: Add a user as a JSON object

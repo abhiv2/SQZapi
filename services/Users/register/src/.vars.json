@@ -23,10 +23,10 @@
     }
   ],
   "function": {
-    "name": "register",
+    "name": "registerV1",
     "event": {
       "type": "http",
-      "path": "/register",
+      "path": "/v1/register",
       "methods": [
         "POST"
       ]
@@ -36,7 +36,7 @@
     ],
     "swagger": {
       "paths": {
-        "/register": {
+        "/v1/register": {
           "post": {
             "summary": "Signup a user",
             "description": "Add a user as a JSON object",
@@ -117,12 +117,12 @@
     "handler": "handler",
     "timeout": 6,
     "memory": 128,
-    "identifier": "Register",
+    "identifier": "RegisterV1",
     "service": "Users",
     "serviceIdentifier": "Users",
     "path": "/home/i0026/Projects/SQZapi/services/Users/register",
     "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
-    "packageFile": "Register.zip",
+    "packageFile": "RegisterV1.zip",
     "flagged": true,
     "force": false
   }

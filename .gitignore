@@ -1,0 +1,8 @@
+node_modules
+.event.input.json
+services/Users/list/.event.input.json
+services/Users/login/.event.input.json
+services/Users/register/.event.input.json
+services/Users/list/.event.output.json
+services/Users/login/.event.output.json
+services/Users/register/.event.output.json

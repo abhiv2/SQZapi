@@ -17,15 +17,15 @@ This Api can serve as a boilerplate for getting started  with quick api developm
 
 - Register - to register a user
 ```
-POST on /register
+POST on /v1/register
 ```
 - Login - log in to get JWT access_token and profile info
 ```
-POST on /login
+POST on /v1/login
 ```
 - List users - get list of all users
 ```
-GET on /users
+GET on /v1/users
 ```
 
 #### setup 

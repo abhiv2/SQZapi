@@ -23,10 +23,10 @@
     }
   ],
   "function": {
-    "name": "list",
+    "name": "listV1",
     "event": {
       "type": "http",
-      "path": "/users",
+      "path": "/v1/users",
       "methods": [
         "GET"
       ]
@@ -36,7 +36,7 @@
     ],
     "swagger": {
       "paths": {
-        "/users": {
+        "/v1/users": {
           "get": {
             "summary": "List all users",
             "description": "List all users as an JSON array",
@@ -108,12 +108,12 @@
     "handler": "handler",
     "timeout": 6,
     "memory": 128,
-    "identifier": "List",
+    "identifier": "ListV1",
     "service": "Users",
     "serviceIdentifier": "Users",
     "path": "/home/i0026/Projects/SQZapi/services/Users/list",
     "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
-    "packageFile": "List.zip",
+    "packageFile": "ListV1.zip",
     "flagged": true,
     "force": false
   }

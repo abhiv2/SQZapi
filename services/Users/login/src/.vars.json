@@ -23,10 +23,10 @@
     }
   ],
   "function": {
-    "name": "login",
+    "name": "loginV1",
     "event": {
       "type": "http",
-      "path": "/login",
+      "path": "/v1/login",
       "methods": [
         "POST"
       ]
@@ -36,7 +36,7 @@
     ],
     "swagger": {
       "paths": {
-        "/login": {
+        "/v1/login": {
           "post": {
             "summary": "login a user",
             "description": "find user in database and send back jwt access code",
@@ -113,12 +113,12 @@
     "handler": "handler",
     "timeout": 6,
     "memory": 128,
-    "identifier": "Login",
+    "identifier": "LoginV1",
     "service": "Users",
     "serviceIdentifier": "Users",
     "path": "/home/i0026/Projects/SQZapi/services/Users/login",
     "packagePath": "/home/i0026/Projects/SQZapi/.build/deploy/functions",
-    "packageFile": "Login.zip",
+    "packageFile": "LoginV1.zip",
     "flagged": true,
     "force": false
   }

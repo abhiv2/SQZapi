@@ -1,7 +1,7 @@
-name : list
+name : listV1
 event:
   type: http
-  path: /users
+  path: /v1/users
   methods:
     - GET
  
@@ -10,7 +10,7 @@ packaging:
 
 swagger:
   paths:
-    /users:
+    /v1/users:
       get:
         summary: List all users
         description: List all users as an JSON array
