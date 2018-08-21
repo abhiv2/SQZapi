@@ -1,8 +1,35 @@
-node_modules
+# IntelliJ idea
+.idea
+
+# OSX
+.DS_Store
+
+# cache
+.cache
+
+# deployment BUILD directory
+.build
+
+# events
 .event.input.json
-services/Users/list/.event.input.json
-services/Users/login/.event.input.json
-services/Users/register/.event.input.json
-services/Users/list/.event.output.json
-services/Users/login/.event.output.json
-services/Users/register/.event.output.json
+.event.output.json
+
+# Logs
+*.log
+
+# NODE modules
+node_modules
+
+# compiled node packages
+**/dist/*
+!**/dist/.gitkeep
+
+# microservices inclusions
+services/*/src/inclusions
+
+# screenshots webdriverio
+errorShots
+
+.vars.json
+
+.history
